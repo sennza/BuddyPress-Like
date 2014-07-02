@@ -21,7 +21,8 @@ function bp_like_list_scripts() {
     wp_enqueue_script( 'bplike-jquery' );
 
     /* JQuery dialog for likers popup. */
-    wp_enqueue_script( 'jquery-ui-dialog' );
+   /// wp_register_script('jquery-ui-dialog', array('jquery'));
+    wp_enqueue_script(' jquery-ui-dialog');
 }
 
 /**
